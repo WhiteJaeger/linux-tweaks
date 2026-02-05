@@ -1,6 +1,6 @@
 # Linux tweaks
 
-# Launch Command
+## Launch Command
 
 `MANGOHUD=1 DXVK_HDR=1 PROTON_ENABLE_HDR=1 PROTON_DLSS_UPGRADE=1 DXVK_NVAPI_DRS_NGX_DLSS_RR_MODE=custom,NGX_DLSS_RR_OVERRIDE_SCALING_RATIO=90 DXVK_NVAPI_DRS_NGX_DLSSG_MULTI_FRAME_COUNT=3 %command%`
 
@@ -12,14 +12,14 @@
 * (optional) `DXVK_NVAPI_DRS_NGX_DLSSG_MULTI_FRAME_COUNT=3` - override DLSS Frame Generation frame count
   * Valid VALUEs are: `0` (application-controlled), `1` (2x), `2` (3x) and `3` (4x).
 
-# More on DLSS
+## More on DLSS
 * https://github.com/jp7677/dxvk-nvapi/wiki/Passing-driver-settings#override-dlss-sr-performance-mode
 
-# More on HDR 
+## More on HDR 
 
 * https://github.com/GloriousEggroll/proton-ge-custom?tab=readme-ov-file#enable-hdr
 
-# Audio
+## Audio
 
 * Dolby Atmos: https://www.reddit.com/r/linuxquestions/comments/pfl0g7/dolby_atmos_support_in_linux/?rdt=41004
 

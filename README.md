@@ -2,11 +2,11 @@
 
 ## Launch Command
 
-`MANGOHUD=1 DXVK_HDR=1 PROTON_ENABLE_HDR=1 PROTON_DLSS_UPGRADE=1 DXVK_NVAPI_DRS_NGX_DLSS_RR_MODE=custom,NGX_DLSS_RR_OVERRIDE_SCALING_RATIO=90 DXVK_NVAPI_DRS_NGX_DLSSG_MULTI_FRAME_COUNT=3 gamescope -h 1440 -w 2560 --hdr-enabled -f -- %command%`
+`MANGOHUD=1 PROTON_ENABLE_HDR=1 PROTON_DLSS_UPGRADE=1 DXVK_NVAPI_DRS_NGX_DLSS_RR_MODE=custom,NGX_DLSS_RR_OVERRIDE_SCALING_RATIO=90 DXVK_NVAPI_DRS_NGX_DLSSG_MULTI_FRAME_COUNT=3 gamescope -h 1440 -w 2560 --hdr-enabled -f -- %command%`
 
 * (optional) `MANGOHUD=1` - performance monitor
 * `PROTON_DLSS_UPGRADE=1` - use the latest DLSS
-* `DXVK_HDR=1 PROTON_ENABLE_HDR=1` - enable HDR in driver and translation layer
+* `PROTON_ENABLE_HDR=1` - enable HDR in driver and translation layer
 * (optional) `DXVK_NVAPI_DRS_NGX_DLSS_RR_MODE=custom,NGX_DLSS_RR_OVERRIDE_SCALING_RATIO=90` - custom DLSS scaling (`90` == 90%) 
   * `DXVK_NVAPI_DRS_NGX_DLAA_OVERRIDE=dlaa_on` - DLAA
 * (optional) `DXVK_NVAPI_DRS_NGX_DLSSG_MULTI_FRAME_COUNT=3` - override DLSS Frame Generation frame count
